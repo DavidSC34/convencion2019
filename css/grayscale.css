@@ -1,0 +1,492 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+#mainNav {
+  min-height: 56px;
+  background-color: #000;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #161616;
+  font-weight: 700;
+  padding: .9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+     font-family:  'Barlow';
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #mainNav .nav-link:active {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #000000;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #ffffff;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #C8B400;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #C8B400;
+    outline: none;
+    border-bottom: 0.25rem solid #C8B400;
+  }
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 182, 126, 0.3)), color-stop(75%, rgba(0, 182, 126, 0.7)), to(#00B67E)), url("../img/Portada-5.png");
+  background: linear-gradient(to bottom, rgba(0, 182, 126, 0.3) 0%, rgba(0, 182, 126, 0.7) 75%, #00B67E 100%), url("../img/Portada-5.png");*/
+  background: url("../img/Fondo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Playfair Display';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+ 
+  color : #000;
+}
+
+.masthead h3{
+  font-family: 'Barlow'; 
+  color : #000;
+}
+
+.masthead h3 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    
+  }
+  .masthead h3 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #968200;
+}
+
+.btn-primary:hover {
+  background-color: #C8B400;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+.about-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+
+.welcome-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00B67E), color-stop(75%, rgba(0, 182, 126, 0.9)), to(rgba(0, 182, 126, 0.8)));
+  background: linear-gradient(to bottom, #00B67E 0%, rgba(0, 182, 126, 0.9) 75%, rgba(0, 182, 126, 0.8) 100%);
+}
+
+.welcome-section p {
+  /*margin-bottom: 5rem;*/
+  font-size:20px;
+
+}
+
+.videos-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00B67E), color-stop(75%, rgba(0, 182, 126, 0.9)), to(rgba(0, 182, 126, 0.8)));
+  background: linear-gradient(to bottom, #00B67E 0%, rgba(0, 182, 126, 0.9) 75%, rgba(0, 182, 126, 0.8) 100%);
+}
+
+.videos-section p {
+  margin-bottom: 5rem;
+
+}
+
+.docs-section {
+  padding-top: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), color-stop(75%, rgba(238, 238, 238, 0.9)), to(rgba(238, 238, 238, 0.8)));
+  background: linear-gradient(to bottom, #eeeeee 0%, rgba(238, 238, 238, 0.9) 75%, rgba(238, 238, 238, 0.8) 100%);
+}
+
+.docs-section p {
+  margin-bottom: 5rem;
+}
+
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.signup-section {
+  padding: 10rem 0;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616));*/
+  /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);*/
+  /*background: url("../img/bg-signup.jpg");*/
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.galeria-section {
+  padding: 3rem 0;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616));*/
+  /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);*/
+  /*background: url("../img/bg-signup.jpg");*/
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.signup-section .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Barlow';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #C8B400;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Barlow';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #C8B400;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  color: #fff;
+
+  /*;
+  border-radius: 100%;
+  line-height: 3rem;
+  */
+}
+
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #968200;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #C8B400;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #C8B400 !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+footer {
+  font-family: 'Barlow';
+}
+
+
+/*Tabla de precios */
+
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+#about .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+#about hr {
+  margin: 1.5rem 0;
+}
+
+#about .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+#about .card-price {
+  font-size: 2rem;
+  font-family: 'Barlow';
+  margin: 0;
+}
+
+#titulo-green, #titulo-gold{
+  font-size: 3rem;
+  font-family: 'Playfair Display';
+  margin: 0;
+}
+#precio-beneficios{
+  font-size: 2rem;
+  font-family: 'Barlow';
+  
+}
+
+/*para la tabla de precios gold y green*/
+#green-benefits,#gold-benefits ul li{
+  font-family: 'Barlow';
+}
+/*Para el formulario */
+#form-ship{
+  font-family: 'Barlow';
+}
+#titulo-form-ship{
+ font-family: 'Playfair Display';
+}
+
+#about .card-price .period {
+  font-size: 0.8rem;
+}
+
+#about ul li {
+  margin-bottom: 1rem;
+}
+
+#about .text-muted {
+  opacity: 0.7;
+}
+
+#about .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  #about .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  #about .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/*color botones membership*/
+
+@font-face {
+font-family: 'kollektifregular';
+src: url('https://localhost/membership2020Beta/fuentes/kollektif-webfont.woff2') format('woff2'),
+url('https://localhost/membership2020Beta/fuentes/kollektif-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+.btn-primary{
+  font-family: 'Barlow';
+
+  }
+
+  #about #green-benefits{
+    background-color: #00A078;
+  }
+
+  #about #gold-benefits{
+    background-color: #C8B400;
+  }
+
+  /*botones de beneficios*/
+
+#about .btn-primary {
+    background-color: #161616;
+}
+
+#about .btn-primary:hover {
+  background-color: #968200;
+}
+
+.contenido_nota_post .wpb_content_element{
+
+   font-family: 'Playfair Display' !important;
+
+
+}
