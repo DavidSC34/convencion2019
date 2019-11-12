@@ -1,6 +1,6 @@
 .fg {
 width:100%;
-max-width:560px;
+max-width:930px;
 position:relative;
 display:block;
 overflow:hidden;
@@ -27,11 +27,13 @@ scrollbar-width:none;  /* Firefox */
 .fgthumbwrap-inner { /* width is set by javascript in foliogallery.php file */
 position:relative;
 display:block;
-overflow:hidden
+overflow:hidden;
+width: 930px;
+height: 250px;
 }
 
 .fgthumb {
-width:130px;	
+width:300px;	
 position:relative;
 display:block;
 overflow:hidden;
@@ -42,7 +44,7 @@ box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 4px 0 rgba(0,0,0,0.15)
 }
 
 .fgthumb-itself {
-height:98px;
+height:180px;
 position:relative;
 display:block;
 overflow:hidden;
