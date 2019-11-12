@@ -64,7 +64,12 @@
             
           </div>
                  
-          
+            <div class="col-lg-12">
+               <div class="mx-auto text-center my-5">
+                <a href="index.php" id="btn-member" class="btn btn-primary ">Return to home <br/>(Regresar al inicio)</a>
+            </div>
+            
+          </div>
           
 
       </div>
@@ -81,9 +86,7 @@
       </div>
       
       
-     <div class="mx-auto text-center mt-5">
-       <a href="index.php" id="btn-member" class="btn btn-primary ">Return to home <br/>(Regresar al inicio)</a>
-     </div>
+   
       
    
     </div>

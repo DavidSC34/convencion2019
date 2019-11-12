@@ -165,7 +165,7 @@
       </div>
       
      <div class="mx-auto text-center mt-5">
-       <a href="gallery.php" id="btn-member" class="btn btn-primary js-scroll-trigger">Gallery <br/>(Galeria)</a>
+       <a href="gallery.php" id="btn-member" class="btn btn-primary js-scroll-trigger" target="_blank">Gallery <br/>(Galeria)</a>
      </div>
       
    
