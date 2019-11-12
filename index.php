@@ -259,7 +259,7 @@
 <p class="text-justify text-black">Choose N/A if the item is not appropriate or not applicable to this workshop. Your feedback is sincerely appreciated. Thank you. / 
 Seleccione N/A si alguno de los temas no le es aplicable. Su opinion es muy importante para nosotros. ¡Gracias!</p>
 
-
+  <hr class="my-5">
               
               <form id="form-survey" action="conexion.php" method="post">
                    
@@ -378,6 +378,7 @@ Seleccione N/A si alguno de los temas no le es aplicable. Su opinion es muy impo
                           <label class="form-check-label" for="inlineRadio2">N/A</label>
                         </div>
                     </div>
+
                     <!--MAIN EVENTS / EVENTOS PRINCIPALES-->
                     <div class="form-group">
                       
