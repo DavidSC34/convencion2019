@@ -103,20 +103,35 @@
   <section id="welcome" class="welcome-section text-center">
     <div class="container align-content-center">
       <div class="row">
-       
-              <!-- Free Tier -->
-          <div class="col-lg-12">
-             <h3 class="text-white mx-auto ">Querida familia del WBC:</h3>
+         <div class="col-lg-6">
+             <h3 class="text-white mx-auto ">Dear WBC Family:</h3>
 
-             <p class="text-white mx-auto ">A pocos días de haber celebrado nuestra convención anual en su edición 57, las emociones de este inolvidable evento siguen presentes en cada uno de nosotros. Momentos únicos e irrepetibles que dieron forma a una histórica convención que reunió a la élite del boxeo en un majestuoso escenario, las playas de Cancún Quintana Roo.</p>
+                   <p class="text-white text-justify ">Just a few days since we celebrated our annual  57th Convention, so the memories remain sharply defined as well as greatly cherished.</p>
 
-             <p class="text-white mx-auto ">Volvamos a vibrar a través de este serial de fotos (algunas inéditas), videos y documentos que hemos preparado para ustedes.</p>
+                   <p class="text-white text-justify ">Unique moments that shaped a truly historic Convention which united  Boxing's elite in a majestic venue, in exotically magnificent Cancun, Quintana Roo.</p>
 
-<p class="text-white mx-auto ">No olviden contestar la encuesta final y hacernos saber sus opiniones y finalmente ¡GRACIAS! a cada uno de ustedes, pues su asistencia y entusiasta participación son la esencia de nuestra convención.</p>
+                  <p class="text-white text-justify ">Let's contemplate and enjoy  this series of photos (some unpublished), videos and documents, which has been specially and meticulously prepared.</p>
+                  <p class="text-white text-justify ">Please don't  forget to answer the final survey and let us know your opinions, which we value.</p>
+                  <p class="text-white text-justify ">Finally a heartfelt THANK YOU to each and every one of you, because your attendance and your enthusiastic participation are the essence of the Convention and our success, progressing and propelling Boxing to a bright and secure future.</p>
 
 
 
           </div>
+              <!-- Free Tier -->
+          <div class="col-lg-6">
+             <h3 class="text-white mx-auto ">Querida familia del WBC:</h3>
+
+             <p class="text-white text-justify ">A pocos días de haber celebrado nuestra convención anual en su edición 57, las emociones de este inolvidable evento siguen presentes en cada uno de nosotros. </p>
+             <p class="text-white text-justify ">Momentos únicos e irrepetibles que dieron forma a una histórica convención que reunió a la élite del boxeo en un majestuoso escenario, las playas de Cancún Quintana Roo.</p>
+
+             <p class="text-white text-justify ">Volvamos a vibrar a través de este serial de fotos (algunas inéditas), videos y documentos que hemos preparado para ustedes.</p>
+
+<p class="text-white text-justify ">No olviden contestar la encuesta final y hacernos saber sus opiniones y finalmente ¡GRACIAS! a cada uno de ustedes, pues su asistencia y entusiasta participación son la esencia de nuestra convención.</p>
+
+
+
+          </div>
+         
           
 
       </div>
