@@ -86,10 +86,10 @@
         
            </div>
            <div class="col-lg-4">             
-           <iframe width="100%" height="315" src="https://www.youtube.com/embed/mAGM4OBGVfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="315" src="https://www.youtube.com/embed/0U_5G5Mbqh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            </div>
            <div class="col-lg-4">             
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/dU5qoTDEKoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/I10pF6Jk-ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            </div>           
           
           
