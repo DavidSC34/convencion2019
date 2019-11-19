@@ -76,7 +76,9 @@
 
       <div class="row">      
           
-
+          <div class="mx-auto text-center my-4">
+              <a href="https://www.instagram.com/explore/tags/wbccancun57" id="btn-member" class="btn btn-primary">Click here to go social media publications <br/>(Click aqui para ver publicaciones en redes sociales)</a>
+           </div>
            <div class="col-lg-12">
              <div id="instagram-wbc-convencion" ></div> 
             
