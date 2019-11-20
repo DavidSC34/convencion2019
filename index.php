@@ -72,6 +72,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Survey</a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="news.php">Conventions news</a>
+           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact-us">Contact us</a>
           </li>
